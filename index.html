@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job site</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to Job Search</h1>
+    <br />
+    <form action="" id="form">
+      <input type="text" name="job_name" id="job_name" placeholder="Enter your desired job name" />
+      <input type="text" name="state" id="state" list="state_list" disabled placeholder="Enter state" />
+      <datalist id="state_list"></datalist>
+      <input type="text" name="city" id="city" list="city_list" disabled placeholder="Enter city" />
+      <datalist id="city_list"></datalist>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

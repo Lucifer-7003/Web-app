@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  padding: 34px;
+}
+
+input,
+select {
+  display: block;
+  width: 80%;
+  margin: 12px auto;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
